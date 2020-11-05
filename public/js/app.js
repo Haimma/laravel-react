@@ -9683,7 +9683,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "body {\n    font-family: 'open sans', sans-serif;\n    font-size: 16px;\n  }\n\n  table {\n    margin-left: 15%;\n    width: 70%;\n    border-collapse: collapse;\n  }\n\n  thead th {\n    text-align: left;\n    border-bottom: 2px solid black;\n  }\n\n  thead button {\n    border: 0;\n    border-radius: none;\n    font-family: inherit;\n    font-weight: 700;\n    font-size: inherit;\n    padding: 0.5em;\n    margin-bottom: 1px;\n    width: 100%;\n\n  }\n\n  thead button.ascending::after {\n    content: '\\1F447';\n    display: inline-block;\n    margin-left: 1em;\n  }\n\n  thead button.descending::after {\n    content: '\\261D\\FE0F';\n    display: inline-block;\n    margin-left: 1em;\n  }\n\n  tbody td {\n    padding: 0.5em;\n    border-bottom: 1px solid #ccc;\n  }\n\n  tbody tr:hover {\n    background-color: #eee;\n  }\n\n  div {\n    -moz-text-align-last: center;\n         text-align-last: center;\n    font-size: 25px;\n  }\n", ""]);
+exports.push([module.i, "body {\r\n    font-family: 'open sans', sans-serif;\r\n    font-size: 16px;\r\n  }\r\n\r\n  table {\r\n    margin-left: 15%;\r\n    width: 70%;\r\n    border-collapse: collapse;\r\n  }\r\n\r\n  thead th {\r\n    text-align: left;\r\n    border-bottom: 2px solid black;\r\n  }\r\n\r\n  thead button {\r\n    border: 0;\r\n    border-radius: none;\r\n    font-family: inherit;\r\n    font-weight: 700;\r\n    font-size: inherit;\r\n    padding: 0.5em;\r\n    margin-bottom: 1px;\r\n    width: 100%;\r\n\r\n  }\r\n\r\n  thead button.ascending::after {\r\n    content: '\\1F447';\r\n    display: inline-block;\r\n    margin-left: 1em;\r\n  }\r\n\r\n  thead button.descending::after {\r\n    content: '\\261D\\FE0F';\r\n    display: inline-block;\r\n    margin-left: 1em;\r\n  }\r\n\r\n  tbody td {\r\n    padding: 0.5em;\r\n    border-bottom: 1px solid #ccc;\r\n  }\r\n\r\n  tbody tr:hover {\r\n    background-color: #eee;\r\n  }\r\n\r\n  div {\r\n    -moz-text-align-last: center;\r\n         text-align-last: center;\r\n    font-size: 25px;\r\n  }\r\n", ""]);
 
 // exports
 
@@ -9702,7 +9702,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".webCard {\n    -moz-text-align-last: center;\n         text-align-last: center;\n    padding-left: 20%;\n    padding-right: 20%;\n}\n\nbutton {\n    margin-top: 20px;\n    width: 30%;\n}\n", ""]);
+exports.push([module.i, ".webCard {\r\n    -moz-text-align-last: center;\r\n         text-align-last: center;\r\n    padding-left: 20%;\r\n    padding-right: 20%;\r\n}\r\n\r\nbutton {\r\n    margin-top: 20px;\r\n    width: 30%;\r\n}\r\n", ""]);
 
 // exports
 
@@ -9721,7 +9721,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, "a {\n    padding-left: 20px;\n    font-size: 20px;\n  }\n\ndiv {\n    padding-top: 10px;\n}\n", ""]);
+exports.push([module.i, "a {\r\n    padding-left: 20px;\r\n    font-size: 20px;\r\n  }\r\n\r\ndiv {\r\n    padding-top: 10px;\r\n}\r\n", ""]);
 
 // exports
 
@@ -88823,7 +88823,7 @@ var User = /*#__PURE__*/function (_Component) {
       var web = event.target.value;
 
       if (web) {
-        // window.open('//' + web, '_blank', 'noopener, noreferrer');
+        window.open('//' + web, '_blank', 'noopener, noreferrer');
         var today = new Date();
         var lastClicked = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate() + ' ' + today.getHours() + ':' + today.getMinutes() + ':' + today.getSeconds();
         this.props.webClickedListUpdate(web, this.props.webHistory, lastClicked);
