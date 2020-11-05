@@ -10,8 +10,9 @@
 4)go to the application folder and
 5) run:
 	npm install
+    cp .env.example .env (copy the code from .env.example to .env)
     composer install
-    composer dump-autoload
+    php artisan key:generate
 6) open 2 terminals and run:
 	php artisan serve
 	npm run watch
