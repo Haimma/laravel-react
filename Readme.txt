@@ -10,6 +10,8 @@
 4)go to the application folder and
 5) run:
 	npm install
+    composer install
+    composer dump-autoload
 6) open 2 terminals and run:
 	php artisan serve
 	npm run watch
